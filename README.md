@@ -25,17 +25,6 @@ https://nayshal.github.io/wembley-calendar/wembley.ics
 
 ---
 
-## 🖼️ Preview
-
-<p align="center">
-  <img src="docs/iphone-preview.png" alt="iPhone preview" width="300"/>
-  <img src="docs/maps-preview.png" alt="Map preview" width="300"/>
-</p>
-
-*(Screenshots are examples — appearance varies by device.)*
-
----
-
 ## 🚀 Features
 
 - 📡 Fully automatic updates (GitHub Actions)
