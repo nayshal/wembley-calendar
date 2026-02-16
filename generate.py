@@ -11,28 +11,43 @@ soup = BeautifulSoup(r.text, "html.parser")
 
 cal = Calendar()
 
-events_found = 0
+for link in soup.select("a[href*='/events/']"):
 
-for text in soup.stripped_strings:
+    title = link.get_text(strip=True)
+
+    if not title:
+        continue
+
+    parent = link.find_parent()
+
+    text = parent.get_text(" ", strip=True)
+
     match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", text)
 
-    if match:
-        try:
-            date = datetime.strptime(match.group(1), "%d %b %Y")
+    if not match:
+        continue
 
-            e = Event()
-            e.name = "Wembley Stadium Event"
-            e.begin = date
-            e.duration = {"hours": 3}
+    try:
+        date = datetime.strptime(match.group(1), "%d %b %Y")
+    except:
+        continue
 
-            cal.events.add(e)
-            events_found += 1
+    event_url = "https://www.wembleystadium.com" + link["href"]
 
-        except:
-            pass
+    e = Event()
+    e.name = title
+    e.begin = date
+    e.duration = {"hours": 3}
 
-# ALWAYS write the file (even if empty)
+    # 📍 Location
+    e.location = "Wembley Stadium, London, UK"
+
+    # 📝 Description (shows on iPhone)
+    e.description = f"{title}\n\nWembley Stadium\n{event_url}"
+
+    cal.events.add(e)
+
 with open("wembley.ics", "w") as f:
     f.writelines(cal)
 
-print(f"Created calendar with {events_found} events")
+print(f"Created calendar with {len(cal.events)} events")
