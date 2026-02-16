@@ -11,46 +11,37 @@ soup = BeautifulSoup(r.text, "html.parser")
 
 cal = Calendar()
 
-# Each event card has this content structure
-cards = soup.find_all(string=re.compile(r"\d{1,2}\s+\w+\s+\d{4}"))
+# Wembley event titles are inside headings on event cards
+for heading in soup.find_all(["h2", "h3"]):
 
-events_added = 0
+    title = heading.get_text(strip=True)
 
-for date_text in cards:
-
-    parent = date_text.find_parent()
-
-    if not parent:
+    # Skip non-event headings
+    if not title or len(title) < 5:
         continue
 
-    block = parent.get_text(" ", strip=True)
+    card = heading.find_parent()
 
-    # Extract date
-    match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", block)
-    if not match:
+    if not card:
+        continue
+
+    text = card.get_text(" ", strip=True)
+
+    # Find date like "22 Mar 2026"
+    date_match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", text)
+    if not date_match:
         continue
 
     try:
-        date = datetime.strptime(match.group(1), "%d %b %Y")
+        date = datetime.strptime(date_match.group(1), "%d %b %Y")
     except:
         continue
 
-    # Split lines of text from the card
-    parts = block.split()
+    # Try to find subtitle (teams etc.)
+    # Usually appears right after title
+    after_title = text.split(title, 1)[-1]
 
-    # Attempt to find title (usually ALL CAPS words after date/time)
-    title_match = re.search(
-        r"\d{1,2}\s+\w+\s+\d{4}\s+\d{2}:\d{2}\s+([A-Z0-9\s\-]+)",
-        block
-    )
-
-    if not title_match:
-        continue
-
-    title = title_match.group(1).strip()
-
-    # Attempt to find subtitle (teams etc.)
-    desc_match = re.search(rf"{re.escape(title)}\s+(.*?)\s+(FIND OUT MORE|BUY TICKETS|COMING SOON)", block)
+    desc_match = re.search(r"([A-Za-z0-9 vV\-\']{3,})", after_title)
 
     description = desc_match.group(1).strip() if desc_match else ""
 
@@ -62,9 +53,8 @@ for date_text in cards:
     e.description = description
 
     cal.events.add(e)
-    events_added += 1
 
 with open("wembley.ics", "w") as f:
     f.writelines(cal)
 
-print(f"Created calendar with {events_added} events")
+print(f"Created calendar with {len(cal.events)} events")
