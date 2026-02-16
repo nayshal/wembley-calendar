@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
 from ics import Calendar, Event
 from datetime import datetime
 import re
@@ -7,49 +6,38 @@ import re
 URL = "https://www.wembleystadium.com/events"
 
 r = requests.get(URL)
-soup = BeautifulSoup(r.text, "html.parser")
+html = r.text
 
 cal = Calendar()
 
-# Wembley event cards contain the event title in <h3>
-cards = soup.select("div.event-item, li.event-item, article")
+# Find dates like "22 Mar 2026"
+date_matches = re.findall(r"\d{1,2}\s+\w+\s+\d{4}", html)
 
-for card in cards:
+# Find event titles near those dates
+title_matches = re.findall(
+    r'aria-label="([^"]+)"', html
+)
 
-    title_el = card.find(["h2", "h3"])
-    if not title_el:
-        continue
+events_added = 0
 
-    title = title_el.get_text(strip=True)
-
-    text = card.get_text(" ", strip=True)
-
-    # Extract date like "22 Mar 2026"
-    match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", text)
-    if not match:
-        continue
+for title, date_str in zip(title_matches, date_matches):
 
     try:
-        date = datetime.strptime(match.group(1), "%d %b %Y")
+        date = datetime.strptime(date_str, "%d %b %Y")
     except:
         continue
-
-    # Find link to event page
-    link_el = card.find("a", href=True)
-    event_url = ""
-    if link_el:
-        event_url = "https://www.wembleystadium.com" + link_el["href"]
 
     e = Event()
     e.name = title
     e.begin = date
     e.duration = {"hours": 3}
     e.location = "Wembley Stadium, London, UK"
-    e.description = f"{title}\n\n{event_url}"
+    e.description = f"{title}\n\nhttps://www.wembleystadium.com/events"
 
     cal.events.add(e)
+    events_added += 1
 
 with open("wembley.ics", "w") as f:
     f.writelines(cal)
 
-print(f"Created calendar with {len(cal.events)} events")
+print(f"Created calendar with {events_added} events")
