@@ -19,7 +19,7 @@ while True:
     headings = soup.find_all(["h2", "h3"])
 
     if not headings:
-        break  # No more pages
+        break
 
     added_on_page = 0
 
@@ -67,11 +67,13 @@ while True:
         e = Event()
         e.name = title.title()
 
-        # ⭐ TRUE ALL-DAY EVENT
-        e.make_all_day()
+        # ⭐ Set date FIRST
         e.begin = date(dt.year, dt.month, dt.day)
 
-        # 📍 Simple location
+        # ⭐ THEN convert to all-day
+        e.make_all_day()
+
+        # 📍 Location
         e.location = "Wembley Stadium"
 
         # 📝 Description + link
