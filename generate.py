@@ -11,19 +11,21 @@ soup = BeautifulSoup(r.text, "html.parser")
 
 cal = Calendar()
 
-for link in soup.select("a[href*='/events/']"):
+# Wembley event cards contain the event title in <h3>
+cards = soup.select("div.event-item, li.event-item, article")
 
-    title = link.get_text(strip=True)
+for card in cards:
 
-    if not title:
+    title_el = card.find(["h2", "h3"])
+    if not title_el:
         continue
 
-    parent = link.find_parent()
+    title = title_el.get_text(strip=True)
 
-    text = parent.get_text(" ", strip=True)
+    text = card.get_text(" ", strip=True)
 
+    # Extract date like "22 Mar 2026"
     match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", text)
-
     if not match:
         continue
 
@@ -32,18 +34,18 @@ for link in soup.select("a[href*='/events/']"):
     except:
         continue
 
-    event_url = "https://www.wembleystadium.com" + link["href"]
+    # Find link to event page
+    link_el = card.find("a", href=True)
+    event_url = ""
+    if link_el:
+        event_url = "https://www.wembleystadium.com" + link_el["href"]
 
     e = Event()
     e.name = title
     e.begin = date
     e.duration = {"hours": 3}
-
-    # 📍 Location
     e.location = "Wembley Stadium, London, UK"
-
-    # 📝 Description (shows on iPhone)
-    e.description = f"{title}\n\nWembley Stadium\n{event_url}"
+    e.description = f"{title}\n\n{event_url}"
 
     cal.events.add(e)
 
