@@ -1,172 +1,194 @@
-# Wembley Stadium Events Calendar (Auto-Updating)
+# 🏟️ Wembley Stadium Events Calendar
 
-A free, auto-updating calendar subscription for all events at Wembley Stadium.
+<p align="center">
+  <b>📅 Auto‑updating subscription calendar for all Wembley Stadium events</b><br>
+  Concerts • Football • Finals • Special events
+</p>
 
-This project scrapes the official Wembley Stadium events page and generates a live `.ics` calendar feed that works with Apple Calendar, Google Calendar, Outlook, and most calendar apps.
+<p align="center">
+  <a href="https://github.com/nayshal/wembley-calendar/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/nayshal/wembley-calendar/update.yml?label=Build&logo=github&style=for-the-badge" />
+  </a>
+  <img src="https://img.shields.io/badge/Auto--Update-Daily-blue?style=for-the-badge&logo=clockify" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-iOS%20%7C%20Android%20%7C%20Outlook-orange?style=for-the-badge" />
+</p>
 
-## Live Calendar Feed
+---
 
+## ✨ Live Calendar Feed
+
+👉 **Subscribe here:**  
 https://nayshal.github.io/wembley-calendar/wembley.ics
 
-Subscribe to this URL — do NOT download it.
+> ⚠️ Subscribe to the URL — do NOT download the file.
 
 ---
 
-## Features
+## 🖼️ Preview
 
-- Auto-updates daily via GitHub Actions
-- Includes all upcoming Wembley Stadium events
-- All-day events for clean display
-- Removes duplicate “Away Supporters” listings
-- Includes event descriptions
-- Includes direct link to official event page
-- Map-ready location (Wembley Stadium)
-- Works on iPhone, Android, Google Calendar, Outlook, etc.
-- No API keys required
-- Completely free
+<p align="center">
+  <img src="docs/iphone-preview.png" alt="iPhone preview" width="300"/>
+  <img src="docs/maps-preview.png" alt="Map preview" width="300"/>
+</p>
+
+*(Screenshots are examples — appearance varies by device.)*
 
 ---
 
-## How It Works
+## 🚀 Features
 
-1. A Python script scrapes the official events page:
+- 📡 Fully automatic updates (GitHub Actions)
+- 📅 All upcoming Wembley Stadium events
+- 🌙 Clean all‑day entries
+- 🏟️ Map‑ready location (Wembley Stadium)
+- 🔗 Direct links to official event pages
+- 🧹 Removes duplicate “Away Supporters” listings
+- 📱 Works on iPhone, Android, Google Calendar, Outlook & more
+- 🆓 No API keys required
+- 🛠️ Open source & free
+
+---
+
+## ⚙️ How It Works
+
+1. Python script scrapes:
    https://www.wembleystadium.com/events
 
-2. It extracts:
+2. Extracts:
+
    - Event title
    - Date
    - Description
    - Event page link
-   - Venue location
+   - Venue
 
-3. The script generates a standard iCalendar (`.ics`) file.
+3. Generates a standard `.ics` calendar file
 
-4. GitHub Actions runs automatically (daily) and updates the file.
+4. GitHub Actions updates it automatically
 
-5. GitHub Pages hosts the `.ics` file publicly.
+5. GitHub Pages hosts the live subscription
 
-Your calendar app periodically refreshes the feed.
-
----
-
-## Subscribe on iPhone / iPad (Apple Calendar)
-
-1. Open Settings
-2. Tap Calendar
-3. Tap Accounts
-4. Tap Add Account
-5. Tap Other
-6. Tap Add Subscribed Calendar
-7. Paste the URL:
-
-   https://nayshal.github.io/wembley-calendar/wembley.ics
-
-8. Tap Next → Save
+Your calendar app refreshes periodically.
 
 ---
 
-## Subscribe on Android (Google Calendar)
+## 📱 Subscribe on iPhone / iPad
 
-1. Open https://calendar.google.com in a browser
-2. In the left sidebar, click + next to "Other calendars"
-3. Select From URL
-4. Paste:
+**Settings → Calendar → Accounts → Add Account → Other → Add Subscribed Calendar**
 
-   https://nayshal.github.io/wembley-calendar/wembley.ics
+Paste:
 
-5. Click Add calendar
+```
+https://nayshal.github.io/wembley-calendar/wembley.ics
+```
 
-The calendar will sync to your phone automatically.
+Tap **Next → Save**
 
 ---
 
-## Subscribe in Outlook
+## 🤖 Subscribe on Android (Google Calendar)
+
+Google Calendar mobile apps can’t add URLs directly.
+
+### Use Web Method:
+
+1. Open https://calendar.google.com
+2. Click **+** next to “Other calendars”
+3. Select **From URL**
+4. Paste the feed URL
+5. Click **Add calendar**
+
+Syncs automatically to your phone.
+
+---
+
+## 💼 Subscribe in Outlook
 
 ### Outlook Web / Office 365
 
-1. Open Outlook Calendar
-2. Click Add calendar
-3. Choose Subscribe from web
-4. Paste the URL
-5. Name the calendar
-6. Click Import
+1. Open Calendar
+2. Add calendar → Subscribe from web
+3. Paste URL
+4. Name it → Import
 
 ### Outlook Desktop
 
-1. Go to Calendar view
-2. Select Add Calendar → From Internet
-3. Paste the URL
-4. Confirm
+Add Calendar → From Internet → Paste URL
 
 ---
 
-## Subscribe on macOS (Apple Calendar)
+## 🍎 Subscribe on macOS
 
-1. Open Calendar app
-2. File → New Calendar Subscription
-3. Paste the URL
-4. Configure refresh settings
-5. Click OK
+Calendar → File → New Calendar Subscription → Paste URL
 
 ---
 
-## Refresh Behavior
+## 🔄 Refresh Behavior
 
-Calendar subscriptions update automatically.
-
-Typical refresh intervals:
+Subscriptions update automatically:
 
 - Apple Calendar: every few hours to daily
 - Google Calendar: ~8–24 hours
 - Outlook: varies
 
-To force refresh, remove and re-add the subscription.
+To force refresh: remove and re‑add the subscription.
 
 ---
 
-## Running Your Own Version
+## 🛠️ Run Your Own Version
 
-Requirements:
+### Requirements
 
 - Python 3
 - requests
 - beautifulsoup4
 - ics
 
-Install locally:
+Install:
 
+```
 pip install -r requirements.txt
+```
 
 Run:
 
+```
 python generate.py
+```
 
 ---
 
-## Automation
+## 🤖 Automation
 
-GitHub Actions runs the script automatically on a schedule and commits updates to the repository.
+GitHub Actions runs on a schedule and updates the calendar file.
 
-GitHub Pages serves the updated `.ics` file publicly.
-
----
-
-## Limitations
-
-- Event times are not included (all-day events for consistency)
-- Calendar apps control refresh frequency
-- Some apps may not display venue photos for subscribed calendars
-- Events depend on data published on the official Wembley site
+GitHub Pages serves the public feed.
 
 ---
 
-## Disclaimer
+## ⚠️ Limitations
 
-This project is not affiliated with Wembley Stadium.  
-All event data comes from the public website.
+- Event times not included (all‑day for consistency)
+- Refresh timing controlled by calendar apps
+- Venue photos may not appear for subscribed calendars
+- Depends on data from official site
 
 ---
 
-## License
+## 📜 Disclaimer
 
-MIT License — free to use and modify.
+Not affiliated with Wembley Stadium.  
+All data sourced from the public website.
+
+---
+
+## 📄 License
+
+MIT — free to use, modify, and share.
+
+---
+
+<p align="center">
+  Made with ❤️ for football fans & concert‑goers
+</p>
