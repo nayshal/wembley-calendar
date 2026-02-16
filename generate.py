@@ -4,70 +4,86 @@ from ics import Calendar, Event
 from datetime import datetime, date
 import re
 
-URL = "https://www.wembleystadium.com/events"
 BASE = "https://www.wembleystadium.com"
-
-r = requests.get(URL)
-soup = BeautifulSoup(r.text, "html.parser")
+URL = BASE + "/events"
 
 cal = Calendar()
-
 seen_titles = set()
 
-for heading in soup.find_all(["h2", "h3"]):
+page = 1
 
-    title = heading.get_text(strip=True)
+while True:
+    r = requests.get(f"{URL}?page={page}")
+    soup = BeautifulSoup(r.text, "html.parser")
 
-    if not title or len(title) < 5:
-        continue
+    headings = soup.find_all(["h2", "h3"])
 
-    # ❌ Skip away-supporter versions
-    if re.search(r"AWAY|SUPPORTER", title, re.IGNORECASE):
-        continue
+    if not headings:
+        break  # No more pages
 
-    card = heading.find_parent()
-    if not card:
-        continue
+    added_on_page = 0
 
-    text = card.get_text(" ", strip=True)
+    for heading in headings:
 
-    # 📅 Extract date
-    date_match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", text)
-    if not date_match:
-        continue
+        title = heading.get_text(strip=True)
 
-    try:
-        dt = datetime.strptime(date_match.group(1), "%d %b %Y")
-    except:
-        continue
+        if not title or len(title) < 5:
+            continue
 
-    # 🚫 Prevent duplicates
-    if title in seen_titles:
-        continue
-    seen_titles.add(title)
+        # ❌ Skip away-supporter versions
+        if re.search(r"AWAY|SUPPORTER", title, re.IGNORECASE):
+            continue
 
-    # 📝 Extract description (text after title)
-    after_title = text.split(title, 1)[-1]
-    desc_match = re.search(r"([A-Za-z0-9 ,.'\-]{5,})", after_title)
-    description = desc_match.group(1).strip() if desc_match else ""
+        card = heading.find_parent()
+        if not card:
+            continue
 
-    # 🔗 Find event page link
-    link_el = card.find("a", href=True)
-    event_url = BASE + link_el["href"] if link_el else URL
+        text = card.get_text(" ", strip=True)
 
-    e = Event()
-    e.name = title.title()
+        # 📅 Extract date
+        date_match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", text)
+        if not date_match:
+            continue
 
-    # ⭐ ALL-DAY EVENT
-    e.begin = date(dt.year, dt.month, dt.day)
+        try:
+            dt = datetime.strptime(date_match.group(1), "%d %b %Y")
+        except:
+            continue
 
-    # 📍 Map-ready address
-    e.location = "Wembley Stadium, London HA9 0WS, United Kingdom"
+        # 🚫 Prevent duplicates
+        if title in seen_titles:
+            continue
+        seen_titles.add(title)
 
-    # 📝 Description + link (tapable on iPhone)
-    e.description = f"{description}\n\nEvent details:\n{event_url}"
+        # 📝 Description
+        after_title = text.split(title, 1)[-1]
+        desc_match = re.search(r"([A-Za-z0-9 ,.'\-]{5,})", after_title)
+        description = desc_match.group(1).strip() if desc_match else ""
 
-    cal.events.add(e)
+        # 🔗 Event link
+        link_el = card.find("a", href=True)
+        event_url = BASE + link_el["href"] if link_el else URL
+
+        e = Event()
+        e.name = title.title()
+
+        # ⭐ TRUE ALL-DAY EVENT
+        e.make_all_day()
+        e.begin = date(dt.year, dt.month, dt.day)
+
+        # 📍 Simple location
+        e.location = "Wembley Stadium"
+
+        # 📝 Description + link
+        e.description = f"{description}\n\nEvent details:\n{event_url}"
+
+        cal.events.add(e)
+        added_on_page += 1
+
+    if added_on_page == 0:
+        break
+
+    page += 1
 
 with open("wembley.ics", "w") as f:
     f.writelines(cal)
