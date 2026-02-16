@@ -8,8 +8,7 @@ BASE = "https://www.wembleystadium.com"
 URL = BASE + "/events"
 
 cal = Calendar()
-
-seen = set()  # track (title, date)
+seen = set()
 
 page = 1
 
@@ -18,7 +17,6 @@ while True:
     soup = BeautifulSoup(r.text, "html.parser")
 
     headings = soup.find_all(["h2", "h3"])
-
     if not headings:
         break
 
@@ -31,7 +29,7 @@ while True:
         if not title or len(title) < 5:
             continue
 
-        # ❌ Skip away-supporter versions
+        # Skip away-supporter listings
         if re.search(r"AWAY|SUPPORTER", title, re.IGNORECASE):
             continue
 
@@ -41,7 +39,7 @@ while True:
 
         text = card.get_text(" ", strip=True)
 
-        # 📅 Extract date
+        # Extract date
         date_match = re.search(r"(\d{1,2}\s+\w+\s+\d{4})", text)
         if not date_match:
             continue
@@ -52,32 +50,37 @@ while True:
             continue
 
         key = (title, dt.date())
-
-        # 🚫 Skip exact duplicates only
         if key in seen:
             continue
         seen.add(key)
 
-        # 📝 Description
+        # Clean description (remove button text)
         after_title = text.split(title, 1)[-1]
-        desc_match = re.search(r"([A-Za-z0-9 ,.'\-]{5,})", after_title)
-        description = desc_match.group(1).strip() if desc_match else ""
+        description = re.sub(
+            r"(FIND OUT MORE|BUY TICKETS|BUY HOSPITALITY|COMING SOON)",
+            "",
+            after_title,
+            flags=re.IGNORECASE
+        ).strip()
 
-        # 🔗 Event link
+        # Event link
         link_el = card.find("a", href=True)
         event_url = BASE + link_el["href"] if link_el else URL
 
         e = Event()
         e.name = title.title()
 
-        # ⭐ TRUE ALL-DAY
+        # True all-day
         e.begin = date(dt.year, dt.month, dt.day)
         e.make_all_day()
 
-        # 📍 Wembley name + coordinates
-        e.location = "Wembley Stadium (51.5560, -0.2796)"
+        # Location name only
+        e.location = "Wembley Stadium"
 
-        # 📝 Description + link
+        # ⭐ Proper geographic coordinates
+        e.geo = (51.5560, -0.2796)
+
+        # Description + link
         e.description = f"{description}\n\nEvent details:\n{event_url}"
 
         cal.events.add(e)
