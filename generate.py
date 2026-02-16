@@ -8,7 +8,8 @@ BASE = "https://www.wembleystadium.com"
 URL = BASE + "/events"
 
 cal = Calendar()
-seen_titles = set()
+
+seen = set()  # track (title, date)
 
 page = 1
 
@@ -50,10 +51,12 @@ while True:
         except:
             continue
 
-        # 🚫 Prevent duplicates
-        if title in seen_titles:
+        key = (title, dt.date())
+
+        # 🚫 Skip exact duplicates only
+        if key in seen:
             continue
-        seen_titles.add(title)
+        seen.add(key)
 
         # 📝 Description
         after_title = text.split(title, 1)[-1]
@@ -67,14 +70,12 @@ while True:
         e = Event()
         e.name = title.title()
 
-        # ⭐ Set date FIRST
+        # ⭐ TRUE ALL-DAY
         e.begin = date(dt.year, dt.month, dt.day)
-
-        # ⭐ THEN convert to all-day
         e.make_all_day()
 
-        # 📍 Location
-        e.location = "Wembley Stadium"
+        # 📍 Wembley name + coordinates
+        e.location = "Wembley Stadium (51.5560, -0.2796)"
 
         # 📝 Description + link
         e.description = f"{description}\n\nEvent details:\n{event_url}"
