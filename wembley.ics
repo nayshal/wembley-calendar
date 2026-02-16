@@ -2,122 +2,122 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Which four teams will be gracing the hallowed turf this time round\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Emirates-FA-Cup-semi-final-2-2026
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260426T000000Z
-SUMMARY:The Emirates Fa Cup Semi-Final 2
-UID:fa9146ba-7605-445d-93d5-bce3336b8e03@fa91.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026 Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260708T000000Z
-SUMMARY:My Chemical Romance
-UID:926e0982-528a-4d76-bfad-77c017f58527@926e.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Forever Tour Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260904T000000Z
-SUMMARY:Bon Jovi
-UID:0cdcb6f3-2e0e-4a02-a4f5-904832765d41@0cdc.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Arsenal v Manchester City Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Carabao-Cup-Final
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260322T000000Z
-SUMMARY:The Carabao Cup Final
-UID:a930d62b-255a-43ba-9e4c-1d24bfaf3e44@a930.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Uruguay travel to take on the Three Lions under the arch on Friday 27 March 2026 Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Uruguay
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260327T000000Z
-SUMMARY:England V Uruguay
-UID:9cabd177-0717-465c-8f1e-5ec617ec0e53@9cab.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260814T000000Z
-SUMMARY:The Weeknd
-UID:0b6b8ddd-b00e-4da3-a600-1f93f3f8435b@0b6b.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Your favourite creators are back in 2026 Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sidemen-Charity-Match-2026
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260418T000000Z
-SUMMARY:Sidemen Charity Match
-UID:589f67f8-5e5c-4494-a925-c1f19c6b1cb8@589f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Which four teams will be gracing the hallowed turf this time round\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Emirates-FA-Cup-semi-final-1-2025
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260425T000000Z
-SUMMARY:The Emirates Fa Cup Semi-Final 1
-UID:3a0f5261-b7e9-4dbc-8cc6-2d7141a00127@3a0f.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Who do you think will lift the Emirates FA Cup this season\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Emirates-FA-Cup-Final
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260516T000000Z
-SUMMARY:The Emirates Fa Cup Final
-UID:1706bef0-ef20-4e72-a348-f77897d07e56@1706.org
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Japan travel to take on the Three Lions under the arch on Tuesday 31st March Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Japan
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260331T000000Z
-SUMMARY:England V Japan
-UID:49e3f3f6-a8c0-411d-b6d2-4090751b2d0a@49e3.org
-END:VEVENT
-BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
 DESCRIPTION:My Kinda Saturday Night Tour Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Luke-Combs
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260731T000000Z
+LOCATION:Wembley Stadium
 SUMMARY:Luke Combs
-UID:5d9a81dd-13c0-45a3-9639-eeaa237ace6f@5d9a.org
+UID:538f4858-d2b5-457c-92f0-c1379922a4d6@538f.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Together\, Together Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260612T000000Z
-SUMMARY:Harry Styles
-UID:cfb0eae3-0fa2-4aae-8469-da27dd7344b4@cfb0.org
-END:VEVENT
-BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260830
 DESCRIPTION:All In London will return to Wembley Stadium in 2026 Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/AEW-All-In-London-at-Wembley-Stadium
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260830T000000Z
+LOCATION:Wembley Stadium
 SUMMARY:Aew: All In London
-UID:11cd5778-459c-4659-8e51-b22b333f5be0@11cd.org
+UID:e82eb500-884e-4344-bd6a-f51261f20d4c@e82e.org
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Who will lift the Adobe Women's FA Cup this year\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Adobe-Womens-FA-Cup-Final-2026
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260531T000000Z
-SUMMARY:Adobe Women'S Fa Cup Final 2026
-UID:ec956d66-41c8-4273-8b5c-ea94a0d8d6b0@ec95.org
+DTSTART;VALUE=DATE:20260516
+DESCRIPTION:Who do you think will lift the Emirates FA Cup this season\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Emirates-FA-Cup-Final
+LOCATION:Wembley Stadium
+SUMMARY:The Emirates Fa Cup Final
+UID:c37f1da1-a46f-428e-8a21-4c2d6e9a5022@c37f.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260414
 DESCRIPTION:England will face Spain in a highly anticipated 2027 FIFA World Cup qualifier on Tuesday 14 April 2026. Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-Women-v-Spain
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260414T000000Z
+LOCATION:Wembley Stadium
 SUMMARY:England V Spain
-UID:69d3e1d3-b504-4676-9e70-f98c1e82868c@69d3.org
+UID:8c857969-d1ff-4169-a5f6-add7753d2d52@8c85.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260327
+DESCRIPTION:Uruguay travel to take on the Three Lions under the arch on Friday 27 March 2026 Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Uruguay
+LOCATION:Wembley Stadium
+SUMMARY:England V Uruguay
+UID:87ec3b3e-5c8c-4e3e-a556-d927302ef197@87ec.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260322
+DESCRIPTION:Arsenal v Manchester City Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Carabao-Cup-Final
+LOCATION:Wembley Stadium
+SUMMARY:The Carabao Cup Final
+UID:4165c9d7-e02c-4712-ad11-aa4943730980@4165.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260425
+DESCRIPTION:Which four teams will be gracing the hallowed turf this time round\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Emirates-FA-Cup-semi-final-1-2025
+LOCATION:Wembley Stadium
+SUMMARY:The Emirates Fa Cup Semi-Final 1
+UID:ecd62713-7708-483d-87b2-95d0e8946411@ecd6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260426
+DESCRIPTION:Which four teams will be gracing the hallowed turf this time round\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Emirates-FA-Cup-semi-final-2-2026
+LOCATION:Wembley Stadium
+SUMMARY:The Emirates Fa Cup Semi-Final 2
+UID:676fc2c2-5aee-48ff-afbd-c9885bf3574c@676f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260331
+DESCRIPTION:Japan travel to take on the Three Lions under the arch on Tuesday 31st March Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Japan
+LOCATION:Wembley Stadium
+SUMMARY:England V Japan
+UID:44d09cfb-a1da-44ff-9466-841d4ed79093@44d0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+DESCRIPTION:Together\, Together Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:a6eea1d4-400b-4cc7-bff7-d197c476d3af@a6ee.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260708
+DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026 Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
+LOCATION:Wembley Stadium
+SUMMARY:My Chemical Romance
+UID:369b065b-ccd6-4132-adbd-0a07f69db253@369b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260814
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:01a64fc6-ccac-4c73-88ae-fee8676ecd3d@01a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260718
 DESCRIPTION:The Romantic Tour Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260718T000000Z
+LOCATION:Wembley Stadium
 SUMMARY:Bruno Mars
-UID:6e58df6d-c17a-41c0-b26c-bb0d22e6d977@6e58.org
+UID:6b73195d-0f90-4848-bb7e-d5305ebe9e9b@6b73.org
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260919
 DESCRIPTION:Arizona State Sun Devils will face Kansas Jayhawks in the Union Jack Classic at Wembley Stadium Find out more\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Arizona-State-Sun-Devils-v-Kansas-Jayhawks
-LOCATION:Wembley Stadium\, London HA9 0WS\, United Kingdom
-DTSTART:20260919T000000Z
+LOCATION:Wembley Stadium
 SUMMARY:Union Jack Classic
-UID:49e3482e-64cd-4091-bfe3-beb653d6c2fa@49e3.org
+UID:f9b17fef-dacd-442e-9d45-96ac68fdc245@f9b1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260904
+DESCRIPTION:Forever Tour Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+LOCATION:Wembley Stadium
+SUMMARY:Bon Jovi
+UID:20b74869-a6b8-44f0-afe7-f8240113a3a9@20b7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260418
+DESCRIPTION:Your favourite creators are back in 2026 Find Out More\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sidemen-Charity-Match-2026
+LOCATION:Wembley Stadium
+SUMMARY:Sidemen Charity Match
+UID:2bf4a56c-1237-4c8b-8c16-4da45bc461a8@2bf4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260531
+DESCRIPTION:Who will lift the Adobe Women's FA Cup this year\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Adobe-Womens-FA-Cup-Final-2026
+LOCATION:Wembley Stadium
+SUMMARY:Adobe Women'S Fa Cup Final 2026
+UID:05677d87-7bb0-4a56-887a-f909f0d95507@0567.org
 END:VEVENT
 END:VCALENDAR
