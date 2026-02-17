@@ -1,4 +1,5 @@
 requests
 beautifulsoup4
-ics
-rich
+ics==0.7.2
+tatsu==5.8.3
+rich==13.7.1
