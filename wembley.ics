@@ -2,332 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260613
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:b6d22082-4327-4e60-8ec5-c26368373116@b6d2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260819
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:803687a8-75dd-4662-a1d4-7828f3dfacc3@8036.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260919
-DESCRIPTION:Arizona State Sun Devils will face Kansas Jayhawks in the Union Jack Classic at Wembley Stadium\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Arizona-State-Sun-Devils-v-Kansas-Jayhawks
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Union Jack Classic
-UID:046576ae-4199-4b02-8bf9-93c1e6d7e51a@0465.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260623
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:ea3be006-3009-4b63-b813-b663d46999f2@ea3b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260629
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:ff6e034e-22bf-47b3-a527-cccb47f2094f@ff6e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260701
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:ccedcfbf-e883-4412-89e7-a2269e9e56b7@cced.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261006
-DESCRIPTION:Czechia travel to take on the Three Lions under the arch on Tuesday 6 October 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Czechia
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:England V Czechia
-UID:850456e1-b2c2-44b1-9534-82562f834854@8504.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260830
-DESCRIPTION:AEW All In: London will return to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/AEW-All-In-London-at-Wembley-Stadium
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Aew All In: London
-UID:29e88493-f8c9-4222-a458-ef9d20997cc6@29e8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260818
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:61d5b9a9-5348-47bf-950d-376e8f1f74f1@61d5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260728
-DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bruno Mars
-UID:d8bd3c6f-f021-4720-be1e-4bf4e6d96d82@d8bd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260704
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:aaf618c7-d729-4719-8f8e-73dcda21da3d@aaf6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260612
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:30ad0224-dce1-45f7-b232-9dcf97f91c70@30ad.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260906
-DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bon Jovi
-UID:349f86ad-5653-4cf3-9ccf-7e5e61f3941f@349f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260530
-DESCRIPTION:The Betfred Challenge Cup Final returns to Wembley in 2026.\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Betfred-Challenge-Cup-Final
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Betfred Challenge Cup Final
-UID:6c4a56dd-cba3-4657-9706-f8d22fbeeba2@6c4a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260606
-DESCRIPTION:The UK’s biggest summer party\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Capitals-Summertime-Ball-with-Barclaycard
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Capital'S Summertime Ball With Barclaycard
-UID:670c446b-37dc-4492-91fe-64149a17c1cf@670c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260724
-DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bruno Mars
-UID:3b4b3bcb-9b4b-4276-87ae-f2afea8dfdf5@3b4b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260525
-DESCRIPTION:Which two teams will compete for the chance to play in the League One next season?\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sky-Bet-League-Two-Play-Off-Final-2026
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Sky Bet League Two Play-Off Final
-UID:a69a7807-70fa-40dd-8a93-be7201291eef@a69a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260711
-DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:My Chemical Romance
-UID:e510b607-d581-476e-953e-432198686e56@e510.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260718
-DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bruno Mars
-UID:dd73c67a-4b31-40c6-8cff-c854486debe9@dd73.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260814
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:568470c1-168d-4f7b-99a6-e736e481c59d@5684.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260904
-DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bon Jovi
-UID:42a683ea-b1e6-4a5b-ab0b-f99c50544a2c@42a6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260627
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:edc29df5-59b8-48e3-8e69-d81aef51b778@edc2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260816
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:0de9e326-1812-4900-bc55-94d5a9aaaf85@0de9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260617
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:b837b94f-703c-40cd-9e92-1d83b1a2dc62@b837.org
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260620
 DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Harry Styles
-UID:d26ae0ec-b85e-4507-9d4a-153d0dd84b51@d26a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261018
-DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Jacksonville-Jaguars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Jacksonville Jaguars 2026
-UID:adf94a19-c7ab-4280-b97e-a8b403f3f355@adf9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260626
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:06c6e3fc-3af2-4c54-ac33-7dec266063d7@06c6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260719
-DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bruno Mars
-UID:be75fbfd-5a6d-4de5-af75-18e8ff03e13d@be75.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260909
-DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bon Jovi
-UID:fec86ff2-7112-4a2a-96bb-e70cb06592cc@fec8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260722
-DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bruno Mars
-UID:dfbec0bf-2047-4d6b-ae84-783b17888c76@dfbe.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260703
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:3d0edcc7-6cd0-493d-896c-cb523465526a@3d0e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260801
-DESCRIPTION:My Kinda Saturday Night Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Luke-Combs
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Luke Combs
-UID:0267e8c2-a6cf-403c-b4da-1ff914e36348@0267.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260523
-DESCRIPTION:Hull City v Middlesbrough\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sky-Bet-Championship-Play-Off-Final
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Sky Bet Championship Play-Off Final
-UID:cd7c47e8-234a-412c-95e3-947ce14a9ca8@cd7c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260731
-DESCRIPTION:My Kinda Saturday Night Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Luke-Combs
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Luke Combs
-UID:2ea55e90-76c5-4745-965c-c51329167ce6@2ea5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260708
-DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:My Chemical Romance
-UID:36a95bc9-7b58-4184-96c5-3e0badbf827e@36a9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260531
-DESCRIPTION:Who will lift the Adobe Women's FA Cup this year?\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Adobe-Womens-FA-Cup-Final-2026
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Adobe Women'S Fa Cup Final 2026
-UID:4babb11e-2d90-4cb4-955b-d9bee0940e89@4bab.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260725
-DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bruno Mars
-UID:d6f193b3-0b5c-4a21-9409-3b3c4b7aea77@d6f1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260524
-DESCRIPTION:Bolton Wanderers v Stockport County\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sky-Bet-League-One-Play-Off-Final-2026
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Sky Bet League One Play-Off Final
-UID:0644990c-1e14-43ff-a525-13147e40e038@0644.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260619
-DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:55c9fd59-41ee-4ce1-af24-e2f29437697f@55c9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260815
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:cfadc18a-c52c-45d9-9abd-4d03dcb2ba36@cfad.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260710
-DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:My Chemical Romance
-UID:a3a146e0-2c1d-40ba-b425-4be3f9454c41@a3a1.org
+UID:f70aaf36-451f-4d63-80b1-8fc7824cc009@f70a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260802
@@ -335,6 +15,326 @@ DESCRIPTION:My Kinda Saturday Night Tour\n\nEvent details:\nhttps://www.wembleys
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Luke Combs
-UID:281768e1-a579-42f6-8aac-019f7df29bbb@2817.org
+UID:ecca9343-4e60-4e20-a463-2d9548d8cd7c@ecca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260731
+DESCRIPTION:My Kinda Saturday Night Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Luke-Combs
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Luke Combs
+UID:0fd64a78-7914-4088-a0c1-1c09ad1bb672@0fd6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260701
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:0a62e411-a6fb-489a-af14-4891844425ee@0a62.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260904
+DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bon Jovi
+UID:185be05f-36d1-48c6-a10f-7696fa432c32@185b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260718
+DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bruno Mars
+UID:d07e0bd0-d484-4c8f-a713-b7f4acb7e754@d07e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260725
+DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bruno Mars
+UID:17386829-ec46-4181-8d24-c51a9bce28e8@1738.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260531
+DESCRIPTION:Who will lift the Adobe Women's FA Cup this year?\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Adobe-Womens-FA-Cup-Final-2026
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Adobe Women'S Fa Cup Final 2026
+UID:2064b6c9-175c-4881-9790-63796ca15d31@2064.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261018
+DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Jacksonville-Jaguars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Jacksonville Jaguars 2026
+UID:7fb99f30-fe5e-4f21-b732-04f27a39b9d3@7fb9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260704
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:d7e7b24d-b23a-4b6e-b5c2-9aa02e724499@d7e7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260719
+DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bruno Mars
+UID:3fb92af0-cadf-4e2f-99f4-db2bbf674ce4@3fb9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260724
+DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bruno Mars
+UID:4018e0ed-02ad-44b4-aa28-8b16ac3978de@4018.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260728
+DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bruno Mars
+UID:11b24b4d-1f78-4ad2-81a7-3caa12dfc36e@11b2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260525
+DESCRIPTION:Which two teams will compete for the chance to play in the League One next season?\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sky-Bet-League-Two-Play-Off-Final-2026
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Sky Bet League Two Play-Off Final
+UID:caeb539b-5c46-49b5-9e71-9d8697f19c94@caeb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260629
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:070ff33f-f34a-4df8-8058-b3438ca9c55b@070f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260626
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:6f3722b6-db7a-4d93-847a-bf5c954ad423@6f37.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260710
+DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:My Chemical Romance
+UID:a15a688b-c86c-4cd1-8130-b7f18c35aa49@a15a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260606
+DESCRIPTION:The UK’s biggest summer party\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Capitals-Summertime-Ball-with-Barclaycard
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Capital'S Summertime Ball With Barclaycard
+UID:57063fd3-3fa1-4c78-b8eb-600a97f58491@5706.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260530
+DESCRIPTION:The Betfred Challenge Cup Final returns to Wembley in 2026.\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Betfred-Challenge-Cup-Final
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Betfred Challenge Cup Final
+UID:697f39c3-6a65-4a1d-8c13-74b24d6791db@697f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260816
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:719e3dff-09c0-414f-a1a4-b285c1e5d25f@719e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260617
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:73f39075-a6ec-4349-93a9-559002a23628@73f3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260722
+DESCRIPTION:The Romantic Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bruno-Mars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bruno Mars
+UID:a80adf21-e07e-49e5-8267-f4e28956f478@a80a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260814
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:19e2dca5-cf1d-4877-a56a-bb0691e8c114@19e2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260619
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:e54078cd-ddf9-4f80-929d-be0dbd5adf7d@e540.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260613
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:9982158d-4d87-40d2-8258-f835491a1816@9982.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261006
+DESCRIPTION:Czechia travel to take on the Three Lions under the arch on Tuesday 6 October 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Czechia
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Czechia
+UID:507f2d6f-35af-478d-91f9-c81f68946cf3@507f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260909
+DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bon Jovi
+UID:081e0221-3312-4965-bb32-ac054a3c6a85@081e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260708
+DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:My Chemical Romance
+UID:8bb6fa0a-1d1c-44da-bd56-f896e51e00c6@8bb6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260801
+DESCRIPTION:My Kinda Saturday Night Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Luke-Combs
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Luke Combs
+UID:743274ef-eea9-4e4f-9301-cef3cba83c34@7432.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260627
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:d7f03210-23bf-4aa4-8f6f-824eacb51e3d@d7f0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260919
+DESCRIPTION:Arizona State Sun Devils will face Kansas Jayhawks in the Union Jack Classic at Wembley Stadium\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Arizona-State-Sun-Devils-v-Kansas-Jayhawks
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Union Jack Classic
+UID:e79fc1ca-8520-45df-97ad-62650807d289@e79f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260524
+DESCRIPTION:Bolton Wanderers v Stockport County\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sky-Bet-League-One-Play-Off-Final-2026
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Sky Bet League One Play-Off Final
+UID:870dab45-ce4d-4ddf-a037-375baa4fb062@870d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260623
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:2460c82f-c087-49be-8115-41aa4c2daf58@2460.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260612
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:e54ac6a9-8326-4e9a-b135-b5f3b4b7fb2f@e54a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260815
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:59cca135-890d-4287-9e23-8fbd652cbd8e@59cc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260711
+DESCRIPTION:My Chemical Romance are bringing the Long Live The Black Parade Tour to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/My-Chemical-Romance
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:My Chemical Romance
+UID:88862185-b748-4bb6-b562-cb2cc983bcbc@8886.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260703
+DESCRIPTION:Together\, Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:4138e61b-11a4-412b-8078-48b1aa9d78e8@4138.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260830
+DESCRIPTION:AEW All In: London will return to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/AEW-All-In-London-at-Wembley-Stadium
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Aew All In: London
+UID:f89424dd-a587-4796-91bc-ecd5ee7f70c9@f894.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260523
+DESCRIPTION:Hull City v Middlesbrough\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Sky-Bet-Championship-Play-Off-Final
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Sky Bet Championship Play-Off Final
+UID:e58e9935-109f-49ac-b362-de3ab4caf4a7@e58e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260819
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:7ed8efb0-2c38-4ccd-8744-e16629868426@7ed8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260906
+DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bon Jovi
+UID:69ffb294-5e2c-4d49-b97c-5cbe9f55eefc@69ff.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260818
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:a3341fd6-6df8-4355-8c15-abf1a9532e9a@a334.org
 END:VEVENT
 END:VCALENDAR
