@@ -2,36 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260906
-DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+DTSTART;VALUE=DATE:20260816
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
-SUMMARY:Bon Jovi
-UID:1c51caf9-30e0-44bb-b61a-2122a5733014@1c51.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260904
-DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Bon Jovi
-UID:adb3bb4b-7233-4777-b238-1d1b7ff663fc@adb3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260830
-DESCRIPTION:AEW All In: London will return to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/AEW-All-In-London-at-Wembley-Stadium
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Aew All In: London
-UID:39a47898-81e8-406b-ac51-cc7358eb81e7@39a4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260912
-DESCRIPTION:Aura World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Diljit-Dosanjh
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Diljit Dosanjh
-UID:39ec83e6-c5df-4b1a-8b5c-f2725de1d34b@39ec.org
+SUMMARY:The Weeknd
+UID:0a16f75f-598d-455d-a28e-70ed52027205@0a16.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260815
@@ -39,39 +15,7 @@ DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent detail
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:The Weeknd
-UID:754116d0-8eab-4147-adca-dde77e445f8b@7541.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260816
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:afe0efcd-9e5c-4144-8cc8-b6b7ace9999a@afe0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260919
-DESCRIPTION:Arizona State Sun Devils will face Kansas Jayhawks in the Union Jack Classic at Wembley Stadium\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Arizona-State-Sun-Devils-v-Kansas-Jayhawks
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Union Jack Classic
-UID:43845cc9-1922-402d-8e9c-a6f8ca5bf696@4384.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260926
-DESCRIPTION:Spain travel to take on the Three Lions under the arch on Saturday 26 September 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Spain
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:England V Spain
-UID:75045a15-d710-443f-bbc3-74239ea94094@7504.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260814
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:e2429392-335f-4680-b467-c8f708aaadd4@e242.org
+UID:88ab6400-f183-411b-ba70-78070bab830e@88ab.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260819
@@ -79,23 +23,39 @@ DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent detail
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:The Weeknd
-UID:c32c3597-f80c-449c-aa77-c1a5326042fc@c32c.org
+UID:30b2b08c-8e1b-488f-a03e-0028ef88fd5a@30b2.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260909
+DTSTART;VALUE=DATE:20260906
 DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Bon Jovi
-UID:dcb14940-8a61-4233-99c5-7e3bf400d575@dcb1.org
+UID:58c92052-b5d2-448b-a402-e6938cd3ac6f@58c9.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260818
-DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+DTSTART;VALUE=DATE:20260919
+DESCRIPTION:Arizona State Sun Devils will face Kansas Jayhawks in the Union Jack Classic at Wembley Stadium\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Arizona-State-Sun-Devils-v-Kansas-Jayhawks
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
-SUMMARY:The Weeknd
-UID:695820e4-1870-41d2-804d-fce04f32f252@6958.org
+SUMMARY:Union Jack Classic
+UID:692a97c6-2e3b-41a7-a1b5-314058687383@692a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261112
+DESCRIPTION:Croatia travel to take on the Three Lions under the arch on Thursday 12 November 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Croatia
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Croatia
+UID:5675541e-b799-4c04-92eb-0ec71bcb7792@5675.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260926
+DESCRIPTION:Spain travel to take on the Three Lions under the arch on Saturday 26 September 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Spain
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Spain
+UID:cfbbc6b1-b50a-43c6-9cb1-8d7942eb80f9@cfbb.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261006
@@ -103,7 +63,23 @@ DESCRIPTION:Czechia travel to take on the Three Lions under the arch on Tuesday 
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:England V Czechia
-UID:38326393-4907-41cf-807a-327d2d2df897@3832.org
+UID:458f2d85-33db-415c-a631-117994d980b3@458f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260814
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:d8bb2e58-2c07-436f-8763-9710276acf7e@d8bb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260912
+DESCRIPTION:Aura World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Diljit-Dosanjh
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Diljit Dosanjh
+UID:927b389a-867d-46a4-b0f5-c337435d9f00@927b.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261018
@@ -111,6 +87,38 @@ DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Jacksonville Jaguars 2026
-UID:29fe1315-3bd5-47b5-918a-5292fa639153@29fe.org
+UID:87b1477e-b286-43f8-8083-69c5ad865df3@87b1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260909
+DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bon Jovi
+UID:3fef8cf5-d744-42f1-8b7c-ac30670ec526@3fef.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260904
+DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Bon Jovi
+UID:aa76a592-afb9-4791-87d0-be79639500a5@aa76.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260830
+DESCRIPTION:AEW All In: London will return to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/AEW-All-In-London-at-Wembley-Stadium
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Aew All In: London
+UID:dfc19c89-344d-4817-913a-7ce6c30d6138@dfc1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260818
+DESCRIPTION:After Hours Til Dawn Stadium Tour with Playboi Carti\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/The-Weeknd
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:The Weeknd
+UID:570b1fc9-1c5d-4d9a-9383-06573614c3a5@570b.org
 END:VEVENT
 END:VCALENDAR
