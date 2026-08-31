@@ -2,68 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270724
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+DTSTART;VALUE=DATE:20260906
+DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:db1f922f-c12a-4f7c-85da-18cd2c49d67e@db1f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270723
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:d5098f5d-35f6-4159-bc45-50d0f49a91ed@d509.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260919
-DESCRIPTION:Arizona State Sun Devils will face Kansas Jayhawks in the Union Jack Classic at Wembley Stadium\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Arizona-State-Sun-Devils-v-Kansas-Jayhawks
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Union Jack Classic
-UID:e572ec0e-a3dd-4213-8964-b47ae5fbed06@e572.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261018
-DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Jacksonville-Jaguars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Jacksonville Jaguars 2026
-UID:62d79348-2dd2-4fd1-951f-3c2a3d0f7fd6@62d7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260912
-DESCRIPTION:Aura World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Diljit-Dosanjh
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Diljit Dosanjh
-UID:49ccff52-0676-4a16-93a4-589cf09fd057@49cc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260830
-DESCRIPTION:AEW All In: London will return to Wembley Stadium in 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/AEW-All-In-London-at-Wembley-Stadium
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Aew All In: London
-UID:1aef78ab-8367-42e7-8319-f18a9672d125@1aef.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260926
-DESCRIPTION:Spain travel to take on the Three Lions under the arch on Saturday 26 September 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Spain
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:England V Spain
-UID:ae50f917-0a48-46d0-85d0-5a33b8051ca9@ae50.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261112
-DESCRIPTION:Croatia travel to take on the Three Lions under the arch on Thursday 12 November 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Croatia
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:England V Croatia
-UID:67de98da-3cb6-4ca4-abcc-39539c5ccda8@67de.org
+SUMMARY:Bon Jovi
+UID:f117b121-7cff-47fa-9a9c-899ce6041c01@f117.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260909
@@ -71,7 +15,15 @@ DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/event
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Bon Jovi
-UID:d1aeece8-583c-4a38-aae7-21b396562722@d1ae.org
+UID:18deba1d-cac0-4783-93d1-b56d01067eab@18de.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260926
+DESCRIPTION:Spain travel to take on the Three Lions under the arch on Saturday 26 September 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Spain
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Spain
+UID:99c41dbc-6328-4632-b6b8-60ac2a1deb14@99c4.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260904
@@ -79,15 +31,55 @@ DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/event
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Bon Jovi
-UID:f02aa70f-b16f-479f-88db-9a4246b0716c@f02a.org
+UID:e41b6a09-ab6a-4777-ad80-3211b9de52ae@e41b.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260906
-DESCRIPTION:Forever Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Bon-Jovi-Forever-Tour
+DTSTART;VALUE=DATE:20260912
+DESCRIPTION:Aura World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Diljit-Dosanjh
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
-SUMMARY:Bon Jovi
-UID:6300f6c8-8ae3-4838-81ea-9ebdf2dff302@6300.org
+SUMMARY:Diljit Dosanjh
+UID:7381774a-d08f-436d-b947-8c3358f8b9f0@7381.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261018
+DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Jacksonville-Jaguars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Jacksonville Jaguars 2026
+UID:a66f946c-7c08-44ac-be1f-786f8e34ba30@a66f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270723
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:35284332-4c36-412b-aa65-cce96ffadd07@3528.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261112
+DESCRIPTION:Croatia travel to take on the Three Lions under the arch on Thursday 12 November 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Croatia
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Croatia
+UID:aa2be12b-8bec-44f6-8b8c-742d53d7ea67@aa2b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270724
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:f84d152c-0d1d-4984-89b7-460293c1c0cf@f84d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260919
+DESCRIPTION:Arizona State Sun Devils will face Kansas Jayhawks in the Union Jack Classic at Wembley Stadium\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Arizona-State-Sun-Devils-v-Kansas-Jayhawks
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Union Jack Classic
+UID:f9ed089c-3f10-451f-a640-984359371378@f9ed.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261006
@@ -95,6 +87,6 @@ DESCRIPTION:Czechia travel to take on the Three Lions under the arch on Tuesday 
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:England V Czechia
-UID:79d7a66c-3474-465a-96c4-0296d861d982@79d7.org
+UID:a11a12a2-19e2-4f9e-93ba-e84ac6733225@a11a.org
 END:VEVENT
 END:VCALENDAR
