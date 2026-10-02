@@ -2,20 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270827
+DTSTART;VALUE=DATE:20270828
 DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Harry-Styles
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Harry Styles
-UID:f09b1940-5948-4b3a-8b9d-86a0582b5106@f09b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270725
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:283d7e54-6901-4fb5-b518-ee2370c1c815@283d.org
+UID:838a3e36-9343-4ae0-a724-97de99ae3435@838a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270825
@@ -23,39 +15,7 @@ DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Harry Styles
-UID:bcc482e4-b167-49fc-b531-7758fab27139@bcc4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270724
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:616e524f-b3de-46d4-8798-adec94e33d2d@616e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270828
-DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:9a2bb226-c80b-4671-a47d-d004f37343fa@9a2b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261112
-DESCRIPTION:Croatia travel to take on the Three Lions under the arch on Thursday 12 November 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Croatia
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:England V Croatia
-UID:05407b68-527c-41f5-9c8d-26e202f44270@0540.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270703
-DESCRIPTION:(sic)est stadium tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Slipknot
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Slipknot
-UID:5b8897ed-970e-4e40-848f-95a840fa1004@5b88.org
+UID:51454ab0-f9e9-4b6e-a5a0-d4c8880a0d45@5145.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270723
@@ -63,7 +23,15 @@ DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembl
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Noah Kahan
-UID:86139a9d-705a-4ab2-ae44-d5c8c8ca35d3@8613.org
+UID:9bd25a12-7c3c-47a5-8a16-e94c1a79d393@9bd2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261112
+DESCRIPTION:Croatia travel to take on the Three Lions under the arch on Thursday 12 November 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-v-Croatia
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Croatia
+UID:65e98386-4535-4a09-8c4f-a7db145714a3@65e9.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261006
@@ -71,7 +39,39 @@ DESCRIPTION:Czechia travel to take on the Three Lions under the arch on Tuesday 
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:England V Czechia
-UID:87606232-88d2-4029-976f-53be3743e0c2@8760.org
+UID:8684592c-f20c-470f-bc68-0cbf9b85a37d@8684.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270725
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:e465f4da-9c0f-4ad1-aceb-abd7b4ebb0fd@e465.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270703
+DESCRIPTION:(sic)est stadium tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Slipknot
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Slipknot
+UID:626cc40b-ac46-4c56-9a6f-6b70605c10e7@626c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270827
+DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:1dd53ff5-0cd5-433d-8549-bade803dfb4e@1dd5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270724
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:85c9c543-e251-4143-a79f-838a35baf3ea@85c9.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261018
@@ -79,6 +79,6 @@ DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Jacksonville Jaguars 2026
-UID:2f40ff0e-8581-48ab-9266-eb36af30342e@2f40.org
+UID:862a2949-e0a9-4aa7-9455-b50904e0df48@862a.org
 END:VEVENT
 END:VCALENDAR
