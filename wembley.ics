@@ -2,28 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270828
-DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Harry-Styles
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:3c7b49d5-66a8-4c39-95da-e44a210bfc07@3c7b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270725
+DTSTART;VALUE=DATE:20270723
 DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Noah Kahan
-UID:5fb37754-c833-4e18-af29-bf7a10f613a3@5fb3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270703
-DESCRIPTION:(sic)est stadium tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Slipknot
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Slipknot
-UID:f0b5a82c-2e3b-4743-9d8a-98d658f5805f@f0b5.org
+UID:3f377660-06cf-413e-a6f4-492bfaf488e3@3f37.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270827
@@ -31,31 +15,7 @@ DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Harry Styles
-UID:47c01644-65d6-415b-911a-d634ca98dddd@47c0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270723
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:520726fe-076a-42ed-b4b6-d41ceb96818c@5207.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261018
-DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Jacksonville-Jaguars
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Jacksonville Jaguars 2026
-UID:993692ac-b0fa-4e6e-818c-dc41541b5ca1@9936.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270724
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:06df80e2-38fc-43f3-ba5d-3164e4b86d8e@06df.org
+UID:ce53da41-0045-4410-8fdd-f796596310e1@ce53.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270825
@@ -63,7 +23,47 @@ DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Harry Styles
-UID:1586e50a-67cc-41de-8fd3-ac2437d901a8@1586.org
+UID:20b4e6cd-9800-4929-a829-131bafbfb0c3@20b4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270828
+DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Harry-Styles
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Harry Styles
+UID:d259c371-f0c6-4c5c-a151-100bac7699c2@d259.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261018
+DESCRIPTION:Houston Texans @ Jacksonville Jaguars\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/Jacksonville-Jaguars
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Jacksonville Jaguars 2026
+UID:b2aa709e-2e25-45de-af75-f6ceeb1621d8@b2aa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270724
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:858cacd1-feb5-451b-a7ed-5d4ffc5f5478@858c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270703
+DESCRIPTION:(sic)est stadium tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Slipknot
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Slipknot
+UID:6827b50b-c892-48d0-9895-cfc4d0acb166@6827.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270725
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:aa9f3d01-c493-46d6-b960-7e302dc1447b@aa9f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261112
@@ -71,6 +71,6 @@ DESCRIPTION:Croatia travel to take on the Three Lions under the arch on Thursday
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:England V Croatia
-UID:7e8f4728-d6c1-49c1-949e-6b5195c5ba47@7e8f.org
+UID:3541e96d-12ad-42ec-80c7-30f586ba0b5e@3541.org
 END:VEVENT
 END:VCALENDAR
