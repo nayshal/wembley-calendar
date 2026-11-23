@@ -2,36 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270902
-DESCRIPTION:Proper Massive Stadium Tour '27\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Sam-Fender
+DTSTART;VALUE=DATE:20270827
+DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Harry-Styles
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
-SUMMARY:Sam Fender
-UID:7ab0cade-f1e3-4969-8102-b5bf7e4bd394@7ab0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270620
-DESCRIPTION:Proper Massive Stadium Tour '27\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Sam-Fender
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Sam Fender
-UID:b7fd8383-e283-4532-b449-e24e1411a4ff@b7fd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270724
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:f8c7efcb-b35e-4b39-9953-f128a267cac7@f8c7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270618
-DESCRIPTION:Proper Massive Stadium Tour '27\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Sam-Fender
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Sam Fender
-UID:33e53ea3-1357-4e91-8603-97dbd90c6554@33e5.org
+SUMMARY:Harry Styles
+UID:18e96afe-92e1-4ec4-887c-6b5a71dc2411@18e9.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270321
@@ -39,47 +15,7 @@ DESCRIPTION:Who will lift the Carabao Cup at Wembley Stadium in 2027?\n\nEvent d
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:The Carabao Cup Final
-UID:77f17203-2134-44af-b23a-48e8bebe3d24@77f1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270723
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:0a18440c-42d1-4e60-86ec-c2ea29edc51e@0a18.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270330
-DESCRIPTION:England will play against Norway in the UEFA Nations League quarter-final\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/England-v-Norway
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:England V Norway
-UID:45fabdc2-573b-4144-a372-292c007bdc28@45fa.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270909
-DESCRIPTION:Take Cover Tour 2027\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Foo-Fighters
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Foo Fighters
-UID:87777e8f-db63-4c35-9371-a2a7da3c9d00@8777.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261205
-DESCRIPTION:The 2025 European champions will meet Ukraine under the arch on Saturday 5 December 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-Women-v-Ukraine
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:England V Ukraine
-UID:d38a9993-3b96-4fa9-8039-ba7eca6fbdb9@d38a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270725
-DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Noah Kahan
-UID:5bfb48d2-033f-4168-a6ef-1508e7d77707@5bfb.org
+UID:f042c7a6-6fe2-4405-a135-028a947cbe13@f042.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270825
@@ -87,15 +23,7 @@ DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Harry Styles
-UID:f8315275-7d8a-4f3c-a7e8-f1835b3c0361@f831.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270911
-DESCRIPTION:Take Cover Tour 2027\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Foo-Fighters
-GEO:51.556000;-0.279600
-LOCATION:Wembley Stadium
-SUMMARY:Foo Fighters
-UID:2def8efe-1c9d-456c-8134-000bd7c1ec0d@2def.org
+UID:d8d8e8c3-ecfb-41d1-bd43-6a8d328ce56c@d8d8.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270828
@@ -103,7 +31,23 @@ DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Harry Styles
-UID:c0e0e074-032b-4bb8-9686-2708eea5ecca@c0e0.org
+UID:2c2551fa-5084-42a9-b22b-7b04d980ec0d@2c25.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270330
+DESCRIPTION:England will play against Norway in the UEFA Nations League quarter-final\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/England-v-Norway
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Norway
+UID:961695cf-917e-44f5-a3dc-dc9c7649ccd3@9616.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270618
+DESCRIPTION:Proper Massive Stadium Tour '27\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Sam-Fender
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Sam Fender
+UID:18d8da4d-8c51-473b-a86c-48248e149856@18d8.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20270703
@@ -111,14 +55,70 @@ DESCRIPTION:(sic)est stadium tour\n\nEvent details:\nhttps://www.wembleystadium.
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
 SUMMARY:Slipknot
-UID:c3dfbab0-a49a-4e3e-9c67-a16a30b298f2@c3df.org
+UID:cac979fd-73eb-4103-b4bc-735b262cec13@cac9.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20270827
-DESCRIPTION:Together Together\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Harry-Styles
+DTSTART;VALUE=DATE:20270723
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
 GEO:51.556000;-0.279600
 LOCATION:Wembley Stadium
-SUMMARY:Harry Styles
-UID:3c65c180-f29a-4489-817f-88d9ccf7da6d@3c65.org
+SUMMARY:Noah Kahan
+UID:f3753cc4-8af9-4ef7-9b9a-10fdc43a01d7@f375.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270909
+DESCRIPTION:Take Cover Tour 2027\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Foo-Fighters
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Foo Fighters
+UID:698b0c69-2cf4-40e8-92fa-e95550694af8@698b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20261205
+DESCRIPTION:The 2025 European champions will meet Ukraine under the arch on Saturday 5 December 2026\n\nEvent details:\nhttps://www.wembleystadium.com/events/2026/England-Women-v-Ukraine
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:England V Ukraine
+UID:eea7f16f-6954-4628-9d17-53e8601325c5@eea7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270725
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:a9a802ae-8202-41ff-9698-baa6f1b3d1e3@a9a8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270620
+DESCRIPTION:Proper Massive Stadium Tour '27\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Sam-Fender
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Sam Fender
+UID:38ca6ef3-7f8a-4b50-a966-cc19d909fc50@38ca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270902
+DESCRIPTION:Proper Massive Stadium Tour '27\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Sam-Fender
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Sam Fender
+UID:ed6f1b13-bcbd-4c34-8499-83acc18340fa@ed6f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270724
+DESCRIPTION:The Last of the Bugs World Tour\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Noah-Kahan
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Noah Kahan
+UID:659a405f-4e99-4320-bcd0-71e7f194262f@659a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20270911
+DESCRIPTION:Take Cover Tour 2027\n\nEvent details:\nhttps://www.wembleystadium.com/events/2027/Foo-Fighters
+GEO:51.556000;-0.279600
+LOCATION:Wembley Stadium
+SUMMARY:Foo Fighters
+UID:c94de817-4b7c-41b7-860c-6dbcd6dbf539@c94d.org
 END:VEVENT
 END:VCALENDAR
